@@ -1,0 +1,9 @@
+Makefile.configure
+config.h
+config.h.old
+config.log
+config.log.old
+slowcgi
+*.o
+*.sha256
+*.tar.gz

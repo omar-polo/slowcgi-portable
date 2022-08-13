@@ -16,19 +16,18 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
+#include "config.h"
+
 #include <sys/types.h>
 #include <sys/ioctl.h>
-#include <sys/queue.h>
 #include <sys/socket.h>
 #include <sys/stat.h>
 #include <sys/time.h>
 #include <sys/un.h>
 #include <sys/wait.h>
 #include <arpa/inet.h>
-#include <err.h>
 #include <fcntl.h>
 #include <errno.h>
-#include <event.h>
 #include <limits.h>
 #include <pwd.h>
 #include <signal.h>
