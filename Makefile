@@ -1,7 +1,7 @@
 .PHONY: all clean distclean install
 
 # Follow the OpenBSD release scheme.
-VERSION =	7.2-beta0
+VERSION =	7.2
 PROG =		slowcgi
 DISTNAME =	${PROG}-${VERSION}
 
