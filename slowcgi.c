@@ -29,6 +29,7 @@
 #include <fcntl.h>
 #include <errno.h>
 #include <limits.h>
+#include <grp.h>
 #include <pwd.h>
 #include <signal.h>
 #include <stdarg.h>
